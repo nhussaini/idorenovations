@@ -40,6 +40,24 @@ body{
   }
 }
 
+.welcome{
+  background-color: $alt-bg;
+  h1{
+    text-align:center;
+    color:$alt-color;
+  }
+}
+
+.detail{
+  background-color: $alt-bg;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  h2{
+    text-align: center;
+    color:$alt-color;
+  }
+}
+
 .footer{
   position: relative;
   bottom: 1.25rem;
