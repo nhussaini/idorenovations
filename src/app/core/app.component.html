@@ -1,2 +1,24 @@
-<button class="btn btn-primary">submit</button>
-<router-outlet></router-outlet>
+<div class="site">
+  <div class="site-content">
+    <div class="container">
+      <nav class="navbar navbar-expand">
+
+          <div class="navbar-nav">
+          <a class="nav-item nav-link" [routerLink]="['/home']" routerLinkActive="active">
+            <i class="d-none d-sm-inline-block fas fa-home mx-1"></i>Home</a>
+          <a class="nav-item nav-link" [routerLink]="['/about']" routerLinkActive="active">
+            <i class="d-none d-sm-inline-block fas fa-images mx-1"></i>About</a>
+          <a class="nav-item nav-link" [routerLink]="['/services']" routerLinkActive="active">
+            <i class="d-none d-sm-inline-block fas fa-paint-roller mx-1"></i>Services</a>
+          <a class="nav-item nav-link" [routerLink]="['/contact']" routerLinkActive="active">
+            <i class="d-none d-sm-inline-block fas fa-envelope mx-1"></i>Contact</a>
+       </div>
+    </nav>
+  </div>
+    <div class="header"></div>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+  <footer></footer>
+</div>

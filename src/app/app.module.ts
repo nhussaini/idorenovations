@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './core/app.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
-import { ServiceComponent } from './components/service/service.component';
+import { ServicesComponent } from './components/services/services.component';
 import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
@@ -13,7 +13,7 @@ import { ContactComponent } from './components/contact/contact.component';
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ServiceComponent,
+    ServicesComponent,
     ContactComponent
   ],
   imports: [
