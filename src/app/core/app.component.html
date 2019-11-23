@@ -1,7 +1,7 @@
 <div class="site">
   <div class="site-content">
     <div class="container">
-      <nav class="navbar navbar-expand">
+      <nav class="navbar navbar-expand navbar-dark">
 
           <div class="navbar-nav">
           <a class="nav-item nav-link" [routerLink]="['/home']" routerLinkActive="active">
@@ -19,9 +19,22 @@
       <h1>House renovations</h1>
       <h2>Live the life you derserve!</h2>
     </div>
-    <main>
+    <main class="container">
       <router-outlet></router-outlet>
     </main>
   </div>
-  <footer></footer>
+  <footer class="footer container">
+    <div class="row">
+      <div class="col-12 col-sm-6">
+        <p>Copyright © 2019 idorenovations</p>
+      </div>
+      <div class="col-12 col-sm-6">
+        <ul class="social-icons float-right">
+          <li><a class="fab fa-facebook"></a></li>
+          <li><a class="fab fa-facebook"></a></li>
+          <li><a class="fas fa-envelope-open-text"></a></li>
+        </ul>
+      </div>
+  </div>
+  </footer>
 </div>
