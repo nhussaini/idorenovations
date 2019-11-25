@@ -108,3 +108,25 @@ body{
 
   }
 }
+
+.choose{
+  margin-bottom: 2rem;
+  h3{
+    padding: 1rem;
+    text-align: center;
+    color:$alt-color;
+  }
+  color:$body-color;
+  background-color:$alt-bg;
+  .mat-card{
+    margin: 1rem;
+    .mat-card-header-text{
+      margin:0rem;
+    }
+    .mat-card-content{
+      p{
+        color:$body-color;
+      }
+    }
+  }
+}
