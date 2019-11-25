@@ -43,8 +43,12 @@ body{
 .welcome{
   background-color: $alt-bg;
   h1{
+    padding: 1rem;
     text-align:center;
     color:$alt-color;
+  }
+  p{
+    padding-bottom:1rem;
   }
 }
 
@@ -53,11 +57,32 @@ body{
   padding-bottom: 1rem;
   margin-bottom: 2rem;
   h2{
+    padding: 1rem;
     text-align: center;
     color:$alt-color;
   }
 }
-
+.services{
+  background-color: $alt-bg;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  h3{
+    padding: 1rem;
+    text-align: center;
+    color:$alt-color;
+  }
+  div{
+    display:inline-block;
+    ul{
+      li{
+        list-style-type: none;
+        i{
+          padding-right: 1rem;
+        }
+      }
+    }
+  }
+}
 .footer{
   position: relative;
   bottom: 1.25rem;
