@@ -17,10 +17,13 @@ body{
 .header{
   background: url('./assets/images/room.jpg') no-repeat;
   background-size: cover;
-  background-position: bottom;
-  min-height: 200px;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 500px;;
   padding-top: 180px;
   padding-bottom: 100px;
+  padding-left: 2rem;
 }
 
 .navbar{
