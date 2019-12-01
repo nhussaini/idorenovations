@@ -45,36 +45,26 @@ body{
 
 .welcome{
   background-color: $alt-bg;
+  overflow: hidden;
+  margin-bottom: 2rem;
   h1{
     padding: 1rem;
     text-align:center;
     color:$alt-color;
   }
+  h3{
+    padding: 1rem;
+    text-align:center;
+    color:$alt-color;
+  }
+  hr{
+    width: 70%;
+border-width: 2px;
+}
   p{
     padding-bottom:1rem;
   }
-}
-
-.detail{
-  background-color: $alt-bg;
-  padding-bottom: 1rem;
-  margin-bottom: 2rem;
-  h2{
-    padding: 1rem;
-    text-align: center;
-    color:$alt-color;
-  }
-}
-.services{
-  background-color: $alt-bg;
-  overflow: hidden;
-  margin-bottom: 2rem;
-  h3{
-    padding: 1rem;
-    text-align: center;
-    color:$alt-color;
-  }
-  div{
+  .services{
     display:inline-block;
     ul{
       li{
@@ -86,6 +76,9 @@ body{
     }
   }
 }
+
+
+
 
 
 .footer{
