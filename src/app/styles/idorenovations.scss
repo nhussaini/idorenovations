@@ -41,6 +41,16 @@ body{
       color:rgba($alt-color, 0.75);
     }
   }
+  .dropdown:hover>.dropdown-menu{
+    display: block;
+  }
+ .dropdown{
+   .dropdown-menu{
+     .dropdown-divider{
+       border-color: red;
+     }
+   }
+ }
 }
 
 .welcome{
