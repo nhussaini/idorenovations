@@ -12,11 +12,11 @@
                     <a class="nav-link" [routerLink]="['/about']" routerLinkActive="active">
                     <i class="d-none d-sm-inline-block fas fa-images mx-1"></i>About</a>
                   </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false" [routerLink]="['/services']" routerLinkActive="active">
+                  <li ngbDropdown class="nav-item dropdown">
+                      <a ngbDropdownToggle class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false" [routerLink]="['/services']" routerLinkActive="active">
                       <i class="d-none d-sm-inline-block fas fa-paint-roller mx-1"></i>Services <span class="caret"></span>
                        </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                           <a class="dropdown-item"> Link1</a>
                           <div class="dropdown-divider"></div>
                           <a class="dropdown-item"> Link2</a>
