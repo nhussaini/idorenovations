@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import {MatCardModule, MatDividerModule, MatFormFieldModule, MatInputModule, MatButtonModule} from '@angular/material';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
