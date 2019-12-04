@@ -8,8 +8,15 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 })
 export class HomeComponent implements OnInit {
   images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  items: Array<string> = [
+    './assets/images/remodelling.jpg',
+    './assets/images/room.jpg',
+    './assets/images/kitchen.jpg'
+  ];
 
-  constructor() { }
+  constructor() {
+   }
+
 
   ngOnInit() {
   }

@@ -3,35 +3,38 @@
   <h1><strong>Welcome to idorenovations!</strong></h1>
   <div class="col-12">
     <p style="text-align: center; font-size: 20px;">
-        We are a group of commited, experienced and professional renovation specialists in GTA, who mainly prioritize the customers' satisfaction.
-        We guarantee that our work meets your expectations within affordable bugdet and planned time span.
+        We are a group of commited, experienced and professional renovation specialists in the GTA, whose main priority is customer satisfaction.
+        We guarantee that our work meets your expectations within an affordable bugdet and planned time span.
 
   </p>
   </div>
 
   <hr>
 
-  <div class="row">
-<div class="col-12">
-  <ngb-carousel *ngIf="images">
+
+
+
+  <div class="container">
+
+  <ngb-carousel *ngIf="items">
       <ng-template ngbSlide>
         <div class="picsum-img-wrapper">
-          <img [src]="images[0]" alt="Random first slide">
+          <img [src]="items[0]" style= "height: 500px; width: 100%;" alt="Random first slide">
         </div>
       </ng-template>
       <ng-template ngbSlide>
         <div class="picsum-img-wrapper">
-          <img [src]="images[1]" alt="Random second slide">
+          <img [src]="items[1]" style= "height: 500px; width: 100%;" alt="Random second slide">
         </div>
       </ng-template>
       <ng-template ngbSlide>
         <div class="picsum-img-wrapper">
-          <img [src]="images[2]" alt="Random third slide">
+          <img [src]="items[2]"  style= "height: 500px; width: 100%;" alt="Random third slide">
         </div>
       </ng-template>
     </ngb-carousel>
   </div>
-</div>
+
 
 
 
@@ -41,7 +44,7 @@
 
 
   <hr>
-
+<div>
   <h3><strong>Our Services</strong> </h3>
   <h4><p style="text-align: center;"> Bring more value and beauty into your home with our services</p></h4>
     <div class="col-12 col-sm-6 services ">
