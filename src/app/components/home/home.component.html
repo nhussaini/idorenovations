@@ -14,22 +14,22 @@
 
 
 
-  <div class="container">
+  <div style="width: 90%; margin: auto;" >
 
   <ngb-carousel *ngIf="items">
       <ng-template ngbSlide>
         <div class="picsum-img-wrapper">
-          <img [src]="items[0]" style= "height: 500px; width: 100%;" alt="Random first slide">
+          <img [src]="items[0]" class="rounded img-fluid"style= " max-height: 550px; width: 100%;" alt="Random first slide">
         </div>
       </ng-template>
       <ng-template ngbSlide>
         <div class="picsum-img-wrapper">
-          <img [src]="items[1]" style= "height: 500px; width: 100%;" alt="Random second slide">
+          <img [src]="items[1]" class="rounded img-fluid" style= "max-height: 550px; width: 100%;" alt="Random second slide">
         </div>
       </ng-template>
       <ng-template ngbSlide>
         <div class="picsum-img-wrapper">
-          <img [src]="items[2]"  style= "height: 500px; width: 100%;" alt="Random third slide">
+          <img [src]="items[2]"  class="rounded img-fluid" style= "max-height: 550px; width: 100%;" alt="Random third slide">
         </div>
       </ng-template>
     </ngb-carousel>
