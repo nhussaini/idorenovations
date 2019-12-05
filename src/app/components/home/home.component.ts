@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   items: Array<string> = [
     './assets/images/remodelling.jpg',
     './assets/images/room.jpg',
-    './assets/images/kitchen.jpg'
+    './assets/images/house.jpg'
   ];
 
   constructor() {

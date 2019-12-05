@@ -1,5 +1,6 @@
 body{
   font-family: 'Ibarra Real Nova', serif;
+  font-size: large;
 }
 .site {
   display: flex;
@@ -79,8 +80,11 @@ border-width: 2px;
     ul{
       li{
         list-style-type: none;
+        .test{
+          padding-right: 5px;
+        }
         i{
-          padding-right: 1rem;
+          padding-right: 2px;
         }
       }
     }
