@@ -1,5 +1,5 @@
 body{
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: 'Lato', serif;
   font-size: large;
 }
 .site {
@@ -37,6 +37,7 @@ body{
     transition: color 0.2s ease-in;
     &.active {
       color: $accent;
+      font-weight: bold;
     }
     &:hover:not(.active) {
       color:rgba($alt-color, 0.75);
@@ -48,7 +49,7 @@ body{
  .dropdown{
    .dropdown-menu{
      .dropdown-divider{
-       border-color: red;
+       border-color: #9f1d22;
      }
    }
  }
