@@ -9,10 +9,10 @@
               <img src="./assets/images/logo.jpg" style="height: 40px; width: 80px;" alt="">
             </a>
 
-              <button class="navbar-toggler" type="button"
+             <!-- <button class="navbar-toggler" type="button"
               (click)="toggleNavbar()" style="color: black;">
-        <span class="navbar-toggler-icon"> <i class="fas fa-bars" style="color:red; font-size:28px;"></i></span>
-      </button>
+              <span class="navbar-toggler-icon"> <i class="fas fa-bars" style="color:red; font-size:28px;"></i></span>
+              </button>-->
 
 
       <div class="collapse navbar-collapse"
@@ -28,6 +28,11 @@
                     <a class="nav-link" [routerLink]="['/about']" routerLinkActive="active">
                      About</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/services']" routerLinkActive="active">
+                      Services</a>
+                </li>
+                  <!--
                   <li ngbDropdown class="nav-item dropdown">
                       <a ngbDropdownToggle class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false" [routerLink]="['/services']" routerLinkActive="active">
                       Services <span class="caret"></span>
@@ -47,6 +52,7 @@
 
                       </div>
                     </li>
+                  -->
                   <li class="nav-item">
                       <a class="nav-link" [routerLink]="['/contact']" routerLinkActive="active">
                         Contact</a>
@@ -63,6 +69,7 @@
     <div class="header">
       <h1 Style="text-align: center; color: white;">Serving throughout the GTA</h1>
     </div>
+
     <main class="main-content container">
       <router-outlet></router-outlet>
     </main>
